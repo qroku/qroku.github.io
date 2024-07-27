@@ -1,0 +1,13 @@
+label {
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+label::after {
+    content: "\A";
+    white-space: pre;
+}
+
+input {
+    display: block;
+}
